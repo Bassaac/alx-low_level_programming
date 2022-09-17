@@ -3,7 +3,7 @@
 
 
 /**
- * main - Prints the alphabet.
+ * main - Prints numbers from 0 to 9.
  *
  * Return: Always 0 (Success)
  */
@@ -11,8 +11,6 @@
 int main(void)
 
 {
-
-	int num[9] = "123456789";
 
 	int i;
 
@@ -22,7 +20,7 @@ int main(void)
 
 	{
 
-		putchar(num[i]);
+		printf("%d", i);
 
 	}
 
